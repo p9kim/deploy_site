@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <title>paulkim.me</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <header class="land">Paul Kim</header>
+
+            <nav class="menu" id="top">
+                <button aria-expanded="false" aria-controls="menu-list" id="navbutton">
+                    <span class="open">˅</span>
+                    <span class="close">˄</span>
+                </button>
+                <ul id="page-list">
+                    <li>
+                        <a href="#about-me">About</a>
+                    </li>
+                    <li>
+                        <a href="./pages/blogs.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="intro">
+                <div class="text">
+                    Hello There! I’m a software engineer whose main focus is in
+                    back-end development. But I also love building purpose driven
+                    intuitive interfaces, front-end development.
+                </div>
+                <div>
+                    <span class="beacon"></span>
+                    <h3 class="employ">Seeking Full-Time Employment</h3>
+                </div>
+            </div>
+            
+
+            
+
+            <h3 class="point1" id="about-me">ABOUT ME</h3>
+            <section class="about">
+                I’m a recent graduate of University of California San Diego. 
+                I studied Computer Science and Cognitive Science Human Computer 
+                Interactions. <br><br>
+
+                At first I started out solely on back-end, and greatly came to 
+                appreciate and love the feeling of finding elegant solutions to 
+                complex problems. During one of my first projects however I was 
+                part of the design team and found it to be great fun. I took many 
+                design courses in conjunction to my computer science courses thereafter.  
+                Creating a purposeful and user friendly/intuitive design paired 
+                with efficient back-end is what I believe to be paramount to a 
+                successful product. <br><br>
+                
+                Besides coding, my other hobbies include hiking/trail running, 
+                camping, and if possible travelling.
+                
+            </section>
+
+            <h3 class="point2 gap" id="skills">SKILLS</h3>
+            <ul class="skills gap">
+                <ul>
+                    <h3>LANGUAGES</h3>
+                    <li>Java</li>
+                    <li>Rust</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>SPARC Assembly</li>
+                    <li>OCaml</li>
+                </ul>
+                <ul>
+                    <h3>WEB</h3>
+                    <li>Javascript(ES6)</li>
+                    <li>Html</li>
+                    <li>CSS(GRID)</li>
+                    <li>Node.js</li>
+                    <li>React.js</li>
+                </ul>
+                <ul>
+                    <h3>TOOLS</h3>
+                    <li>IntelliJ</li>
+                    <li>Sublime</li>
+                    <li>Visual Studio Code</li>
+                    <li>Git & Github</li>
+                    <li>Vim</li>
+                    <li>Eclipse</li>
+                </ul>
+            </ul>
+
+            <h3 class="point3" id="projects">PROJECTS</h3>
+            <div class="projectlist">
+                <div class="project cloud">
+                    <h3>Cloud Surf &nbsp<a href="https://github.com/paulkimmm/cloud_surf">➩</a></h3>
+                    <p>An API that allows users to store files on the cloud. 
+                        This was built using two different types of servers, 
+                        three metadata servers and a block server. The 
+                        metadata server would keep track of information of 
+                        files such as the name, version, and blocklist. 
+                        Depending on the operation metadata server would 
+                        essentially communicate with block server to see if 
+                        a file’s blocks of data are stored on the block server, 
+                        but before all this version numbers are checked with the 
+                        metadata server so race conditions do not occur. </p>
+                    <div class="usedlist">
+                        <span class="useditem">gRPC</span>
+                        <span class="useditem">Java</span>
+                    </div>
+                </div>
+                <div class="project chatBot">
+                    <h3>Chat Analysis Bot &nbsp<a href="https://github.com/paulkimmm/chat_bot">➩</a></h3>
+                    <p>A sentiment analysis bot that scans Twitch chat for patterns to deliver 
+                        better service to the users developed at UCSD Hackathon. Using queue data structure of fixed size, 
+                        the queue will be filled with texts from users in chat. That queue will 
+                        be analyzed to see if there is high percentage of the same “reaction” and 
+                        if threshold is passed then additional content or service will be provided. A 
+                        direct application of this would be instant replays like in sports when a 
+                        crazy play or a player does something amazing. </p>
+                    <div class="usedlist">
+                        <span class="useditem">Python</span>
+                        <span class="useditem">Twitch API</span>
+                    </div>
+                </div>
+                <div class="project opengym">
+                    <h3>Open Gym &nbsp<a href="https://github.com/paulkimmm/open_gym">➩</a></h3>
+                    <p>App telling the user in real time how busy their gym is so that the user can 
+                        a get a more efficient workout. Also shows how busy their gym was in the 
+                        past. Also useful for searching other gyms that work better with your 
+                        schedule.</p>
+                    <div class="usedlist">
+                        <span class="useditem">Javascript</span>
+                        <span class="useditem">MongoDB</span>
+                        <span class="useditem">Node</span>
+                        <span class="useditem">Ionic</span>
+                        <span class="useditem">Angular</span>
+                        <span class="useditem">HTML</span>
+                        <span class="useditem">CSS</span>
+                        <span class="useditem">PHP</span>
+                    </div>
+                </div>
+                <div class="project mhealthme">
+                    <h3>mHealth</h3>
+                    <p>A school project working with the city of San Diego and professors of 
+                        UCSD. Using information and data provided by the city of San Diego 
+                        and organized by professors at UCSD, my group and I created a visual 
+                        representation of reported mental of the population of San Diego. 
+                        The mental health data was represented by frequency of different 
+                        mental illnesses by area, financials, and race.</p>
+                    <div class="usedlist">
+                        <span class="useditem">Node</span>                
+                        <span class="useditem">Javascript</span>                    
+                        <span class="useditem">jQuery</span>                    
+                        <span class="useditem">PostgreSQL</span>                    
+                        <span class="useditem">CSS</span>                    
+                        <span class="useditem">HTML</span>                    
+                        <span class="useditem">Bootstrap</span>                    
+                    </div>
+                </div>
+                <div class="project makes">
+                    <h3>Makes &nbsp<a href="https://github.com/paulkimmm/makes">➩</a></h3>
+                    <p>A web app for users to share and search custom drinks. Some people when they go 
+                        to Starbucks, Jamba Juice, etc. they have specific things they like to 
+                        be done to their drinks. This web app allows them to share what it is and 
+                        what it tastes like. Also if there’s a secret menu drink users can share 
+                        that as well. Or if users have a total original drink users can share the 
+                        recipe for that as well.</p>
+                    <div class="usedlist">
+                        <span class="useditem">Node</span>                    
+                        <span class="useditem">d3.js</span>                    
+                        <span class="useditem">Javascript</span>                    
+                        <span class="useditem">jQuery</span>                    
+                        <span class="useditem">PostgreSQL</span>                    
+                        <span class="useditem">CSS</span>                    
+                        <span class="useditem">HTML</span>                    
+                        <span class="useditem">Bootstrap</span>                    
+                    </div>
+                </div>
+                <div class="project personsite">
+                    <h3>Personal Website</h3>
+                    <p>My personal website to showcase my portfolio and create an online presence as 
+                        a developer through blog posts. Creating my personal website has helped me learn
+                        CSS Grid immensely. CSS Grid is awesome.
+                    </p>
+                    <div class="usedlist">
+                        <span class="useditem">CSS Grid</span>
+                        <span class="useditem">HTML</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="point4" id="ongoing">In the Works</h3>
+            <div class="ongoinglist">
+                <div class="ongoing quickshare">
+                    <h3>Send It &nbsp<a href="https://github.com/paulkimmm/send_it.git">➩</a></h3>
+                    <p>This project is to help me learn the programming language Rust along with 
+                        Rust WebAssembly. Using TCP Sockets create a website that connects two 
+                        users peer to peer to allow them to send files to each other directly 
+                        and fluently. OR due to potential security issues for users, instead 
+                        make it so users upload a file that has an expiration time specified 
+                        by the uploader (max 24 hours). This generates a link that can be shared 
+                        with others allowing them to download the file until expiration time. 
+                        When expiration time is up link and file will be deleted from the server. </p>
+                    <div class="usedlist">
+                        <span class="useditem">Rust</span>
+                        <span class="useditem">Web Assembly</span>
+                        <span class="useditem">HTML</span>
+                        <span class="useditem">CSS</span>
+                    </div>
+                </div>
+            </div>
+            <footer class="bottomR">
+                <ul id="contact-list">                    
+                    <li>
+                        <b><a href="mailto: paulkim0195@gmail.com">EMAIL</a></b>
+                    </li>
+                    <li>
+                        <b><a href="https://github.com/paulkimmm">GITHUB</a></b>
+                    </li>
+                    <li>
+                        <b><a href="https://www.linkedin.com/in/paul-kim-a3881a101/">LINKEDIN</a></b>
+                    </li>
+                    <nav>
+                        <a href="#top"><button class="botmid">˄</button></a>
+                    </nav>
+                </ul>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./javascript/menu.js"></script>
+    </body>
+</html>
