@@ -18,7 +18,10 @@ html {
 
 body {
     font-family: Noway;
-    color: #333333;
+    color: #454a65;
+    background-color: #f5f3ed;
+    /*background-color: #fffbf9;*/
+    /*background-color: #f1fcd4;*/
 }
 
 ul {
@@ -31,7 +34,7 @@ a {
 
 header {
     grid-area: hd;
-    color: #33ccff;
+    color: #9dd1ff;
     font-family: HK;
 }
 
@@ -73,30 +76,30 @@ nav {
 
 .point1 {
     grid-area: pt1;
-    color: #33ccff;
+    color: #9dd1ff;
     font-family: HK;
 }
 
 .point2 {
     grid-area: pt2;
-    color: #33ccff;
+    color: #9dd1ff;
     font-family: HK;
 }
 
 .point3 {
     grid-area: pt3;
-    color: #33ccff;
+    color: #9dd1ff;
     font-family: HK;
 }
 
 .point4 {
     grid-area:pt4;
-    color: #33ccff;
+    color: #9dd1ff;
     font-family: HK;
 }
 
 .skills h4 {
-    color: #33ccff;
+    color: #9dd1ff;
 }
 
 
@@ -113,7 +116,8 @@ footer {
 .beacon {
     grid-area: bc;
     position:absolute;
-    background-color:#99ff33;
+    background-color:#bd4f60;
+    /*background-color: #bd4f60;*/
     height:1.3em;
     width:1.3em;
     border-radius:50%;
@@ -129,7 +133,8 @@ footer {
     top:0;
     /*background-color:transparent;*/
     border-radius:50%;
-    box-shadow:0px 0px 2px 2px #80ff00;
+    box-shadow:0px 0px 2px 2px #bd4f60;
+    /*box-shadow:0px 0px 2px 2px #ff3946;*/
     -webkit-animation:active 1.3s infinite linear;
     animation:active 1.3s infinite linear;
   }
@@ -211,17 +216,17 @@ footer {
     font-weight:700;
     padding:2px 7px;
     border-radius:3px;
-    color:#007bff;
-    border: 1px solid #007bff;
+    color: #8f9fcb;
+    border: 1px solid #8f9fcb;
     background:0 0;
 }
 
 #contact-list a {
-    color: #33ccff;
+    color: #5db8ca;
 }
 
 h3 a {
-    color: #007bff;
+    color: #8f9fcb;
     font-size: 25px;
 }
 
@@ -250,7 +255,7 @@ h3 a {
 
 button {
     border: none;
-    background-color: #33ccff;
+    background-color: #5db8ca;
     color: white;
     text-align: center;
     font-size: 20px;
